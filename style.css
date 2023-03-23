@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poppins';
+    margin: -1px;
+}
+
+main{
+    display: flex;
+    padding: 40px;
+}
+#experiencia{
+    flex:7;
+    padding: 20px;
+}
+#contacto{
+    flex:3;
+    padding: 20px;
+
+}
+
+header{
+    background-color: rgb(127, 255, 212);
+    padding: 20px;
+    font-size: 22px;
+}
+
+hr{
+    color: rgb(64, 216, 191);
+}
+label{
+    width: 200px;
+}
+/* background: */
+progress::-webkit-progress-bar {background-color: rgb(197, 196, 196); width: 100%;}
+progress {background-color: rgb(197, 196, 196);}
+
+/* value: */
+progress::-webkit-progress-value {background-color: aquamarine !important;}
+progress::-moz-progress-bar {background-color: aquamarine !important;}
+progress {color: aquamarine;}
+
+progress[value] {
+    width: 300px;
+    height: 20px;
+}
+
+i{
+    color: rgba(97, 182, 182, 0.763);
+    margin:10px;
+}
